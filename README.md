@@ -25,7 +25,7 @@ Once you've installed `checkov`, which can be achieved using `pip install
 checkov`, you can use its `--external-checks-git` option to download
 third party checks at runtime
 
-    checkov --external-checks-git https://github.com/deanwilson/checkov-extension-lambda-runtime//extra_checks -d .
+    checkov --external-checks-git https://github.com/deanwilson/checkov-extension-lambda-runtime.git//extra_checks -d .
 
 ## Testing the check - developers
 
